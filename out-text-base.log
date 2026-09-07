@@ -1,0 +1,43 @@
+Script started on 2026-09-07 13:09:06+00:00 [COMMAND="./build-base/bin/llama-cli -m ../llama.cpp/models/Qwen3.8-9B-Q4_K_M.gguf -ngl 99 -c 4096 --flash-attn on --cache-type-k q8_0 --cache-type-v q8_0 --temp 0 -n 60 -st -p "Continue in exactly two short sentences: The morning mist always hung lowest over the village of Oakhaven. Pip, the small green dragon, lived alone in his cave at the top of the peak."" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="191" LINES="36"]
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b10839-0cae43063
+model      : ../llama.cpp/models/Qwen3.8-9B-Q4_K_M.gguf
+ftype      : Q4_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+[1m[32m
+> Continue in exactly two short sentences: The morning mist always hung lowest over the village of Oakhaven. Pip, the small green dragon, lived alone in his cave at the top of the peak.
+[0m[90m
+[Start thinking]
+
+Thinking Process:
+
+1.  **Analyze the Request:**
+    *   Input: A short story snippet ("The morning mist always hung lowest over the village of Oakhaven. Pip, the small green dragon, lived alone in his cave at the top of the peak.").
+    *  [0m
+[35m
+[ Prompt: 134.9 t/s | Generation: 14.4 t/s ]
+[0m
+
+Exiting...
+
+Script done on 2026-09-07 13:09:13+00:00 [COMMAND_EXIT_CODE="0"]
